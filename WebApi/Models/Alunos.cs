@@ -16,7 +16,6 @@ namespace WebApi.Models
         public string telefone { get; set; }
         public int ra{ get; set; }
 
-
         public List<Alunos> ListaAlunos()
         {
             var caminhoArquivo = HostingEnvironment.MapPath(@"~/App_Data\base.json");
